@@ -14,7 +14,7 @@ public class Main {
         UserService userService = applicationContext.getBean(UserService.class);
 
         // Create a new user
-        User newUser = new User("John Doe", 25);
+        User newUser = new User("hamza khouzima", 22);
         newUser.setId(1L);
 
         // Save the user
